@@ -1,0 +1,26 @@
+# Python and Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*~
+
+# Raw FARS ZIP downloads (00_data_preparation.ipynb re-downloads them if needed)
+data/*.zip
+
+# Local-only copies of the original notebook (its cells now live in notebooks/)
+/1_exploratory_analysis.ipynb
+/1_exploratory_analysis_ORIGINAL_BACKUP.ipynb
+
+# Accidental empty file
+/01_exploratory_analysis
+
+# R session files
+data/.RData
+data/.Rhistory
+data/.Rapp.history
